@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title> More </title>
+	<!-- Michael/Last Update:2018/10/29 -->
+	<link rel="stylesheet" type="text/css" href="/michaellu5475.github.io/main.css">	
+</head>
+
+<body>
+	<ul id="bar">
+  		<li id="num1"><a href="index.html">Home</a></li>
+  		<li id="num1"><a class="active" href="calculator.html">About</a></li>
+  		<li id="num1" style="float:right"><a href="Pictures.html">Empty</a></li>
+  	</ul>
+  	
+	<h1> Brief Description </h1>
+	<p> Specialists are often required to <em>study</em> <q>calculus</q></p>
+	<h3>  Other fields of using calculus </h3>
+	<ul>
+		<li> &copy Architecture </li>
+		<li> &copy Computer Science</li>
+	</ul>
+	
+	<hr/><br/>
+	
+	<h3> Example </h3>
+	<p id="12"> 12 &reg Why should the cooling towers of thermal power plants be curved rather than
+		 straight up and down like chimneys? The reason for this is that the cooling tower is
+		  large in volume and has a very high self-weight. If it is straight up and down, the
+		   building materials at the bottom will bear such great pressure that they cannot 
+		   bear it (as we know, the peak on the earth can only reach 30,000 meters, otherwise
+		    the rocks at the bottom will melt). Now, the cooling tower edge into a hyperbolic
+		     character, just can make every section of the same pressure, so that the cooling
+		      tower can do a lot. Why it's a hyperbola is something that you can solve in 5 
+		      minutes in calculus theory. </p>
+	<p> &reg Windows comes with a calculator that allows you to perform simple calculations,
+	 such as logarithms. Computers are computations that are based on addition, and when we 
+	 talk about how many billion times we actually mean addition operations. So how do you 
+	 convert a logarithm into an addition? In fact, using the series theory of calculus, you
+	can convert a logarithm function into a series of multiplication and addition operations. </p>
+		
+</body>
+
+</html>

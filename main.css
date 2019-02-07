@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+		color: Black;
+		background-color: LightBlue;
+		margin-left: 10%;
+		margin-right: 10%;
+		border: 10px solid orange;
+		padding: 10px 10px 10px 10px;
+		font-family: fantasy;
+		text-align:center;
+}	
+
+h3, h4, h5, h6 {
+				font-family: SimSun;
+				text-align:center;
+}
+li {
+	text-align:left;
+}
+p {
+				font-family: 'Ubuntu', sans-serif;
+				text-align:left;
+}	
+
+#bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#num1 {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+#num1:last-child {
+  border-right: none;
+}
+
+#num1 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#num1 a:hover:not(.active) {
+  background-color: #111;
+}
+
+#num1 .active {
+  background-color: #4CAF50;
+}
+
+#num1 a:link {
+    color: blue;
+}
+
+#num1 a:visited {
+    color: purple;
+}
+
+#num1 a:hover {
+    color: red;
+}
+
+#num1 a:active {
+    color: yellow;
+}
+
+img  {
+  float: left;
+}
+
+p.clear {
+  clear: both;
+}

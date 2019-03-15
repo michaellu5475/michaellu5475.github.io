@@ -23,6 +23,7 @@ p {
 				font-family: 'Ubuntu', sans-serif;
 				text-align:left;
 }	
+
 table {
   width:100%;
 }
@@ -44,6 +45,7 @@ table#t01 th {
   background-color: black;
   color: white;
 }
+
 #bar {
   list-style-type: none;
   margin: 0;
@@ -99,4 +101,51 @@ img  {
 
 p.clear {
   clear: both;
+}
+
+#img1 {
+
+  -webkit-filter: saturate(800%); 
+  filter: saturate(800%);
+  margin-left: 40px;
+  float: left;
+}
+
+#img2 {
+
+ -webkit-filter: opacity(30%);
+  filter: opacity(30%);
+    margin-left: 40px;
+      float: left;
+}
+
+#img3 {
+
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%);
+    margin-left: 40px;
+      float: left;
+}
+
+#img4 {
+  -webkit-filter: drop-shadow(8px 8px 10px green);
+  filter: drop-shadow(8px 8px 10px green);
+	margin-left: 40px;
+    float: left;
+}
+
+#img1 {
+  animation: img1 2s alternate infinite;
+  -webkit-animation: img4 2s alternate infinite;
+}
+
+@-webkit-keyframes img1 {
+  from {filter:invert(0%);}
+  to {filter:invert(100%);}
+}
+
+
+@keyframes img4 {
+  from {filter:invert(0%);}
+  to {filter:invert(100%);}
 }

@@ -145,7 +145,7 @@ p.clear {
 }
 
 
-@keyframes img4 {
+@keyframes img1 {
   from {filter:invert(0%);}
   to {filter:invert(100%);}
 }

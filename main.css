@@ -136,7 +136,7 @@ p.clear {
 
 #img1 {
   animation: img1 2s alternate infinite;
-  -webkit-animation: img4 2s alternate infinite;
+  -webkit-animation: img1 2s alternate infinite;
 }
 
 @-webkit-keyframes img1 {
